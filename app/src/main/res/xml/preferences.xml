@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Paramètres d'utilisateur">
+        <EditTextPreference android:title="Pseudo"
+            android:summary="Définir votre Pseudo"
+            android:key="prefPseudo"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Paramètres de mise à jour">
+        <CheckBoxPreference android:title="Écran de verrouillage"
+            android:summary="Verrouiller votre ecran"
+            android:key="prefLockScreen"
+            android:defaultValue="false"/>
+
+        <ListPreference android:title="Fréquence des mises à jour "
+            android:summary="Définir la fréquence des rappels de mise à jour"
+            android:key="prefUpdateReminder"
+            android:entries="@array/update_frequency"
+            android:entryValues="@array/update_frequency_values"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

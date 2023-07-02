@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Story Board</string>
+    <string name="settings">Settings</string>
+    <string name="preferences">Preferences</string>
+    <string name="overflow_icon">overflow_icon</string>
+    <string name="entrer_pseudo">Entrer pseudo</string>
+    <string name="ok">OK</string>
+    <string name="pseudo">Pseudo</string>
+</resources>
